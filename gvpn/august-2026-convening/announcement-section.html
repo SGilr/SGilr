@@ -1,0 +1,153 @@
+<!--
+  GVPN August 2026 Virtual Convening — landing page promo
+  =======================================================
+  Two drop-in blocks for gvpn.howpreventionworks.com. All styles are
+  scoped under .gvpn-ac- prefixes so they will not clash with the
+  page's existing CSS. Paste Block 1 immediately after <body> (or just
+  inside the page header) and Block 2 wherever the announcement should
+  sit — suggested position: directly above the #why section.
+
+  The flyer image path assumes assets/gvpn-flyer-aug-2026.jpeg sits
+  next to the page. Adjust the two src/href references if it lives
+  elsewhere. Swap in the original "GVPN Flyer - 4.png" from Paty's
+  5 August email for best quality — this copy is from a phone
+  screenshot and carries a screenshot glyph over the Salzburg Global
+  logo, bottom right.
+-->
+
+<!-- ============ Block 1: slim top-of-page banner ============ -->
+<div class="gvpn-ac-banner">
+  <style>
+    .gvpn-ac-banner {
+      background: linear-gradient(90deg, #b5cf8f 0%, #6cc3c9 55%, #8ecae6 100%);
+      color: #1d2547;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      padding: 0.65rem 1rem;
+      text-align: center;
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+    .gvpn-ac-banner strong { font-weight: 700; }
+    .gvpn-ac-banner a {
+      color: #1d2547;
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      white-space: nowrap;
+    }
+  </style>
+  <strong>GVPN Virtual Convening — Tuesday 25 August 2026,</strong>
+  8:30–10:00 am PDT / 4:30–6:00 pm BST&nbsp;·&nbsp;
+  <a href="https://us06web.zoom.us/meeting/register/Xfp4JKCpSgmHtR26g8JlTg#/registration"
+     target="_blank" rel="noopener">Register free on Zoom</a>
+</div>
+
+<!-- ============ Block 2: full announcement section ============ -->
+<section class="gvpn-ac" id="convening">
+  <style>
+    .gvpn-ac {
+      background: #262f58;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      padding: 3.5rem 1.25rem 4rem;
+    }
+    .gvpn-ac * { box-sizing: border-box; margin: 0; }
+    .gvpn-ac-inner {
+      max-width: 62rem;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      align-items: center;
+      justify-content: center;
+    }
+    .gvpn-ac-copy { flex: 1 1 26rem; min-width: 18rem; }
+    .gvpn-ac-kicker {
+      color: #8ecae6;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 0.9rem;
+    }
+    .gvpn-ac-title {
+      font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+      line-height: 1.2;
+      font-weight: 800;
+      margin-bottom: 1.1rem;
+    }
+    .gvpn-ac-title em { font-style: normal; color: #e0c25b; }
+    .gvpn-ac-date {
+      display: inline-block;
+      background: linear-gradient(90deg, #b5cf8f, #8ecae6);
+      color: #1d2547;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 0.55rem 1.2rem;
+      font-size: 1rem;
+      margin-bottom: 1.2rem;
+    }
+    .gvpn-ac-blurb {
+      color: #d8ddf0;
+      line-height: 1.6;
+      margin-bottom: 1.6rem;
+      max-width: 34rem;
+    }
+    .gvpn-ac-cta {
+      display: inline-block;
+      background: #e0c25b;
+      color: #1d2547;
+      font-weight: 800;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 0.85rem 1.6rem;
+      font-size: 1.05rem;
+    }
+    .gvpn-ac-cta:hover { background: #ecd07a; }
+    .gvpn-ac-sub {
+      display: block;
+      margin-top: 0.9rem;
+      color: #9aa3c7;
+      font-size: 0.85rem;
+    }
+    .gvpn-ac-sub a { color: #8ecae6; }
+    .gvpn-ac-flyer { flex: 0 1 20rem; min-width: 15rem; text-align: center; }
+    .gvpn-ac-flyer img {
+      width: 100%;
+      max-width: 20rem;
+      border-radius: 10px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+      display: block;
+      margin: 0 auto 0.7rem;
+    }
+    .gvpn-ac-flyer a.gvpn-ac-dl { color: #8ecae6; font-size: 0.85rem; }
+  </style>
+  <div class="gvpn-ac-inner">
+    <div class="gvpn-ac-copy">
+      <p class="gvpn-ac-kicker">Next virtual convening</p>
+      <h2 class="gvpn-ac-title">
+        Join us to advance a <em>global conversation</em> about violence prevention
+      </h2>
+      <p class="gvpn-ac-date">Tuesday 25 August 2026 · 8:30–10:00 am PDT / 4:30–6:00 pm BST</p>
+      <p class="gvpn-ac-blurb">
+        The Global Violence Prevention Network's next convening brings together
+        practitioners, researchers and policymakers from every region for
+        co-learning and international collaboration. Registration is free and
+        open to all — please share the flyer with your networks.
+      </p>
+      <a class="gvpn-ac-cta"
+         href="https://us06web.zoom.us/meeting/register/Xfp4JKCpSgmHtR26g8JlTg#/registration"
+         target="_blank" rel="noopener">Register on Zoom</a>
+      <span class="gvpn-ac-sub">
+        Convened by NICJR with GLEPHA and Salzburg Global Seminar
+      </span>
+    </div>
+    <figure class="gvpn-ac-flyer">
+      <a href="assets/gvpn-flyer-aug-2026.jpeg" target="_blank" rel="noopener">
+        <img src="assets/gvpn-flyer-aug-2026.jpeg"
+             alt="Flyer: Global Violence Prevention Network virtual convening, 25 August 2026, 8:30 to 10:00 am PDT. Every hour 52 lives are lost to homicide worldwide; 475,000 homicides globally every year; 1 in 3 women experience intimate partner violence; violence-related costs consume 1.3 to 5 percent of GDP in the most affected regions.">
+      </a>
+      <a class="gvpn-ac-dl" href="assets/gvpn-flyer-aug-2026.jpeg" download>Download the flyer</a>
+    </figure>
+  </div>
+</section>
